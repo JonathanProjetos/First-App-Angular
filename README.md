@@ -1,5 +1,5 @@
 # Bem-vindo ao Projeto Lista de Pessoas
-Este é um projeto full-stack empolgante que foi desenvolvido com o objetivo de fornecer uma plataforma intuitiva para criar e gerenciar listas de pessoas. A aplicação contempla as nescessidades fornecidas neste estudo de caso [Teste técnico](https://drive.google.com/file/d/1Z7D_3Jo_CVUALLAuTq6xed4Sbg3F_NQ0/view?usp=sharing).
+Este é um projeto full-stack desenvolvido com o objetivo de fornecer uma plataforma intuitiva para criar e gerenciar listas de pessoas. A aplicação contempla as nescessidades fornecidas neste estudo de caso [Teste técnico](https://drive.google.com/file/d/1Z7D_3Jo_CVUALLAuTq6xed4Sbg3F_NQ0/view?usp=sharing).
 
 ## Requisitos
  Para o funcionamento da aplicação, será necessário ter a versão 20 do Node.js ou superior, a versão 17 do Angular e o Docker instalados.
