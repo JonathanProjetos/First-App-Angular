@@ -1,0 +1,42 @@
+<mat-card>
+  <table mat-table [dataSource]="person$" class="mat-elevation-z8" style="width: 98vw;" >
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef class="text"> ID </th>
+      <td mat-cell *matCellDef="let element" class="text"> {{element.id}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef class="text"> Name </th>
+      <td mat-cell *matCellDef="let element" class="text">
+        <div class="text-body">
+          <div>
+            {{element.name}}
+          </div>
+          <button type="button" mat-mini-fab color="warn" (click)="removerPeople(element)" aria-label="Botão para deletar">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </td>
+    </ng-container>
+  
+    <!-- Email Column -->
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef class="text"> Email </th>
+      <td mat-cell *matCellDef="let element" class="text">
+        <div class="text-body">
+          <div>
+            {{element.email}}
+          </div>
+          <button type="button" mat-mini-fab color="warn" (click)="removerPeople(element)" aria-label="Botão para deletar">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+    <!-- ID Column -->
+</mat-card>

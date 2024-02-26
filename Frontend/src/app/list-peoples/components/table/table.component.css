@@ -1,0 +1,23 @@
+.table-content {
+  width: 90%;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.text-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.text-body button {
+  margin-left: 10px;
+}
+
+.text {
+  text-align: center;
+}

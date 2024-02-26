@@ -1,0 +1,30 @@
+
+.list-people-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #3f51b5;
+}
+
+.list-people-content h1 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.container-forms {
+  height: auto;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}

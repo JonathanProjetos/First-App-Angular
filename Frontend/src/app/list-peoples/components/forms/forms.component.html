@@ -1,0 +1,17 @@
+  <!-- Input Column -->
+  <div class="form-input">
+    <mat-form-field class="form-input-width">
+      <mat-label>Nome</mat-label>
+      <input matInput type="text" placeholder="Digite seu nome" [(ngModel)]="inputName" (change)="onChangeName($event)"
+        value="Nome">
+    </mat-form-field>
+
+    <mat-form-field class="form-input-width">
+      <mat-label>Email</mat-label>
+      <input matInput type="text" placeholder="Digite seu email" [(ngModel)]="inputEmail"
+        (change)="onChangeEmail($event)" value="Email">
+    </mat-form-field>
+    <button mat-flat-button color="primary" type="submit" [disabled]="!inputName || !inputEmail"
+      (click)="createPeople()">Enviar</button>
+  </div>
+

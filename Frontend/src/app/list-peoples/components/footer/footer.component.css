@@ -1,0 +1,25 @@
+.footer-position {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 0px;
+  background-color: #3f51b5;
+}
+
+.footer-contaniner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-left: 10px;
+  height: 100%;
+  width: 98%;
+}
+
+.footer-contaniner-text {
+  color: white;
+  font-size: 1rem;
+  /* font-weight: 600; */
+}

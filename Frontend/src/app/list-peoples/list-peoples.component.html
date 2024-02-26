@@ -1,0 +1,11 @@
+<section class="list-people-content">
+    <h1 class="title">Lista de pessoas</h1>
+</section>
+
+  <div class="container-forms">
+    <app-forms [person$]="person$" (attListPeoples)="attListPeoples()"></app-forms>
+  </div>
+  <div class="container-table">
+    <app-table [person$]="person$"></app-table>
+  </div>
+  <app-footer></app-footer>

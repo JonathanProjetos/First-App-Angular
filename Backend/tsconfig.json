@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 21",
+  "_version": "21.0.0",
+
+  "compilerOptions": {
+    "lib": ["es2022"],
+    "module": "node16",
+    "target": "es2022",
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node16",
+    "outDir": "./dist",
+    "types": ["node"],
+    "resolveJsonModule": true
+  },
+
+  "include": [
+    "src/**/*.ts",
+    "tests/**/*.ts"
+  ]
+}
